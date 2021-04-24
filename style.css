@@ -1,0 +1,31 @@
+body {
+  min-height: 1100px;
+}
+/* Navbar start */
+#navbarsatu {
+  padding: 1rem 0;
+}
+
+#navtitle {
+  padding-left: 10px;
+}
+/* Navbar End */
+/* media query */
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  #navtitle {
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+}
+/* End media Query */
+/* Jumbotron and Carousel start */
+#carou-img {
+  height: 450px;
+  width: 100%;
+}
+/* Jumbotron and Carousel end */
